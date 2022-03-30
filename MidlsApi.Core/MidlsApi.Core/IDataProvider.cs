@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace $ext_safeprojectname$.DAL
+namespace MidlsApi.Database.DAL
 {
     /// <summary> Интерфейс UnitOfWork для доступа к данным </summary>
     public interface IDataProvider : IDisposable
@@ -26,7 +26,7 @@ namespace $ext_safeprojectname$.DAL
 
         #region CRUD
 
-        /// <summary> Получить IQueryable"EntityType" по указанной сущности (по-умолчанию только актуальные) </summary>
+        /// <summary> Получить IQueryable"EntityType" по указанной сущности </summary>
         /// <typeparam name="EntityType">Тип сущности</typeparam>
         /// <returns>Набор сущностей</returns>
         IQueryable<EntityType> Set<EntityType>() where EntityType : class, IEntityBase;

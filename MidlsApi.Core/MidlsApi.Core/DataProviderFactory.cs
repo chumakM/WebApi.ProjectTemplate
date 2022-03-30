@@ -5,7 +5,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace $ext_safeprojectname$.DAL
+namespace MidlsApi.Database.DAL
 {
     /// <summary> Фабрика создания провайдеров для БД </summary>
     public class DataProviderFactory : IDataProviderFactory

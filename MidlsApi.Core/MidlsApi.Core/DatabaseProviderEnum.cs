@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace $ext_safeprojectname$.DAL
+namespace MidlsApi.Database.DAL
 {
     /// <summary> Перечисление провайдеров для доступа к базам данных </summary>
     public enum DatabaseProviderEnum
     {
         /// <summary> Провайдер для базы Test </summary>
-        test = 1
+        Default = 1
     }
 }

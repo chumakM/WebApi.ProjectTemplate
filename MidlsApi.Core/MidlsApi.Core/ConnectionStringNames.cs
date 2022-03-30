@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace $ext_safeprojectname$.DAL
+namespace MidlsApi.Database.DAL
 {
     /// <summary> Названия подключений в настройках для провайдеров </summary>
     public static class ConnectionStringNames
     {
         private static readonly IDictionary<DatabaseProviderEnum, string> connectionNames = new Dictionary<DatabaseProviderEnum, string>() {
-            { DatabaseProviderEnum.test, "TestEntities" }
+            { DatabaseProviderEnum.Default, "DefaultEntities" }
         };
 
         /// <summary> Получить название подключения </summary>

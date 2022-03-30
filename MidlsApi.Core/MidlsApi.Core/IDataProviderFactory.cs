@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 
-namespace $ext_safeprojectname$.DAL
+namespace MidlsApi.Database.DAL
 {
     /// <summary> Фабрика DataProvider'ов </summary>
     public interface IDataProviderFactory

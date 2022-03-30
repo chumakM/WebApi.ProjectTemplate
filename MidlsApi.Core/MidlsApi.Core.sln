@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidlsApi.Database.DAL", "MidlsApi.Core\MidlsApi.Database.DAL.csproj", "{2B384CEB-E2EA-4499-A60B-702104CDDEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B384CEB-E2EA-4499-A60B-702104CDDEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B384CEB-E2EA-4499-A60B-702104CDDEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B384CEB-E2EA-4499-A60B-702104CDDEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B384CEB-E2EA-4499-A60B-702104CDDEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EABA3815-D203-47AC-8FB0-034A56091100}
+	EndGlobalSection
+EndGlobal

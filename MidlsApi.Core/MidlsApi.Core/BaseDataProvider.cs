@@ -14,7 +14,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Transactions;
 
-namespace $ext_safeprojectname$.DAL
+namespace MidlsApi.Database.DAL
 {
     /// <summary> UnitOfWork для доступа к данным БД. </summary>
     public abstract class BaseDataProvider : IDataProvider
@@ -56,7 +56,7 @@ namespace $ext_safeprojectname$.DAL
 
         #region CRUD
 
-        /// <summary> Получить DBSet по указанной сущности (по-умолчанию только актуальные) </summary>
+        /// <summary> Получить DBSet по указанной сущности </summary>
         /// <typeparam name="EntityType">Тип сущности</typeparam>
         /// <returns>Набор сущностей</returns>
         public IQueryable<EntityType> Set<EntityType>() where EntityType : class, IEntityBase

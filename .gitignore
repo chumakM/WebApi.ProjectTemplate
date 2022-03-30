@@ -1,2 +1,5 @@
 VSIXProjectTemplate/bin/
 VSIXProjectTemplate/obj/
+MidlsApi.Core/.vs/
+MidlsApi.Core/MidlsApi.Core/obj/
+MidlsApi.Core/MidlsApi.Core/bin/
